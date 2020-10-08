@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinhDiem</title>
+</head>
+<body>
+<script>
+    let inputVatLy;
+    let inputHoaHoc;
+    let inputSinhHoc;
+    inputVatLy = prompt("Nhập Điểm Vật Lý");
+    inputHoaHoc = prompt("Nhập Điểm Hóa Học");
+    inputSinhHoc = prompt("Nhập Điểm Sinh Học");
+    let VatLy = parseInt(inputVatLy);
+    let HoaHoc = parseInt(inputHoaHoc);
+    let SinhHoc = parseInt(inputSinhHoc);
+    let sum = VatLy + HoaHoc + SinhHoc;
+    let average = sum/3;
+    document.write("Tổng Điểm Các Môn: " + sum +"<br>");
+    document.write(" Điểm Trung Bình Các Môn : " +average);
+
+</script>
+</body>
+</html>
